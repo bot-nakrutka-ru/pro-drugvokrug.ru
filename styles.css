@@ -217,3 +217,62 @@ h2 span { color: var(--lime); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+
+/* Более крупная и комфортная типографика */
+.topbar-caption { font-size: 11px; }
+.topbar-jump { font-size: 13px; }
+.hero-eyebrow { font-size: 10px; }
+.hero-text { font-size: 16px; }
+.hero-foot { font-size: 11px; }
+.section-eyebrow { font-size: 10px; }
+h2 { font-size: 28px; }
+.result-counter { font-size: 11px; }
+.search-field input { font-size: 14px; }
+.search-field kbd { font-size: 10px; }
+.filter-chip { font-size: 11px; }
+.filter-chip span { font-size: 9px; }
+.section-index { font-size: 12px; }
+.section-heading-copy h3 { font-size: 17px; }
+.section-heading-copy p { font-size: 12px; }
+.section-total { font-size: 9px; }
+.service-card { min-height: 116px; }
+.service-icon { font-size: 12px; }
+.service-copy strong { font-size: 15px; }
+.service-copy > span { font-size: 12px; }
+.no-results > span:not(.no-results-mark) { font-size: 12px; }
+.no-results button { font-size: 11px; }
+.disclaimer p { font-size: 11px; }
+.footer { font-size: 10px; }
+.footer-brand { font-size: 12px; }
+.to-top { font-size: 10px; }
+
+@media (max-width: 760px) {
+  .topbar-jump { font-size: 11px; }
+  .hero-eyebrow { font-size: 9px; }
+  .hero-text { font-size: 13px; }
+  .hero-foot { font-size: 10px; }
+  .section-eyebrow { font-size: 9px; }
+  h2 { font-size: 23px; }
+  .result-counter { font-size: 10px; }
+  .search-field input { font-size: 13px; }
+  .filter-chip { font-size: 10px; }
+  .section-index { font-size: 11px; }
+  .section-heading-copy h3 { font-size: 14px; }
+  .section-heading-copy p { font-size: 10px; }
+  .section-total { font-size: 9px; }
+  .service-card { min-height: 112px; }
+  .service-icon { font-size: 10px; }
+  .service-copy strong { font-size: 12px; }
+  .service-copy > span { font-size: 10.5px; }
+  .disclaimer p { font-size: 10px; }
+  .footer { font-size: 10px; }
+  .footer-brand { font-size: 11px; }
+  .to-top { font-size: 10px; }
+}
+
+@media (max-width: 370px) {
+  .service-card { min-height: 110px; }
+  .service-copy strong { font-size: 11px; }
+  .service-copy > span { font-size: 9.5px; }
+  .section-heading-copy h3 { font-size: 12px; }
+}
